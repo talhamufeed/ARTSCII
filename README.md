@@ -3,13 +3,13 @@
 #### Description:
 I wanted to create a python program that could convert images to ASCII Art for my final project for Harvard's CS50. I prototyped alot of different ideas but the execuations failed because of alot of bugs plus the output results were too **boring**. So then I stumbled across this amazing library called [ascii_magic](https://pypi.org/project/ascii-magic/). And I created this CLI program for using this library.
 #### Requirements:
-'pip install ascii-magic'   ###### The main Library that does all the work
-'pip install argparse'      ###### For Parsing Arguments
-'pip install PIL'           ###### Python Imaging Library (PIL) for handling a few errors related to images
+`pip install ascii-magic`
+`pip install argparse`
+`pip install PIL`
 #### Usage:
-'python ascii_magic.py -f <path to file>  -c <number of columns> -m <mode> -o <output file name>'
+`python ascii_magic.py -f <path to file>  -c <number of columns> -m <mode> -o <output file name>`
 ###### OR 
-'python ascii_magic.py -l <link to image> -s <size> -c <number of columns> -m <mode> -o <output file name>'
+`python ascii_magic.py -l <link to image> -s <size> -c <number of columns> -m <mode> -o <output file name>`
 ##### The Image File -f|--file **OR** The Link To Image -l|--link:
 This will be the path to the image or the URL to the image and they are mutually exclusive.
 ##### The number of columns -c|--columns:
